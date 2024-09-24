@@ -1,0 +1,12 @@
+[2024-09-25 02:12:48] ERROR: undefined => uncaughtException: EISDIR: illegal operation on a directory, read
+Error: EISDIR: illegal operation on a directory, read
+    at Object.readFileSync (node:fs:448:20)
+    at extractAnnotations (D:\nodejs-project\node-ts\node_modules\swagger-jsdoc\src\utils.js:54:26)
+    at build (D:\nodejs-project\node-ts\node_modules\swagger-jsdoc\src\specification.js:200:9)
+    at module.exports (D:\nodejs-project\node-ts\node_modules\swagger-jsdoc\src\lib.js:32:10)
+    at Object.<anonymous> (D:\nodejs-project\node-ts\src\index.ts:71:37)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module.m._compile (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1288:32) (+0ms)

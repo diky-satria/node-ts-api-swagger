@@ -1,0 +1,366 @@
+[2024-09-24 00:09:07] ERROR: undefined => uncaughtException: ⨯ Unable to compile TypeScript:
+src/controllers/ProductController/index.ts(45,65): error TS2552: Cannot find name 'error'. Did you mean 'Error'?
+
+TSError: ⨯ Unable to compile TypeScript:
+src/controllers/ProductController/index.ts(45,65): error TS2552: Cannot find name 'error'. Did you mean 'Error'?
+
+    at createTSError (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19) (+0ms)
+[2024-09-24 01:07:23] ERROR: undefined => uncaughtException: Cannot find module '../../database/models'
+Require stack:
+- D:\nodejs-project\node-ts\src\helpers\HAutoNumbering.ts
+- D:\nodejs-project\node-ts\src\controllers\ProductController\index.ts
+- D:\nodejs-project\node-ts\src\routes\ProductRouter\index.ts
+- D:\nodejs-project\node-ts\src\index.ts
+Error: Cannot find module '../../database/models'
+Require stack:
+- D:\nodejs-project\node-ts\src\helpers\HAutoNumbering.ts
+- D:\nodejs-project\node-ts\src\controllers\ProductController\index.ts
+- D:\nodejs-project\node-ts\src\routes\ProductRouter\index.ts
+- D:\nodejs-project\node-ts\src\index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (D:\nodejs-project\node-ts\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._load (node:internal/modules/cjs/loader:1051:27)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (D:\nodejs-project\node-ts\src\helpers\HAutoNumbering.ts:3:1)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module.m._compile (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1621:12) (+0ms)
+[2024-09-24 01:07:48] ERROR: undefined => uncaughtException: Cannot find module '../../database/models'
+Require stack:
+- D:\nodejs-project\node-ts\src\helpers\HAutoNumbering.ts
+- D:\nodejs-project\node-ts\src\controllers\ProductController\index.ts
+- D:\nodejs-project\node-ts\src\routes\ProductRouter\index.ts
+- D:\nodejs-project\node-ts\src\index.ts
+Error: Cannot find module '../../database/models'
+Require stack:
+- D:\nodejs-project\node-ts\src\helpers\HAutoNumbering.ts
+- D:\nodejs-project\node-ts\src\controllers\ProductController\index.ts
+- D:\nodejs-project\node-ts\src\routes\ProductRouter\index.ts
+- D:\nodejs-project\node-ts\src\index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (D:\nodejs-project\node-ts\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._load (node:internal/modules/cjs/loader:1051:27)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (D:\nodejs-project\node-ts\src\helpers\HAutoNumbering.ts:3:1)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module.m._compile (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1621:12) (+0ms)
+[2024-09-24 01:08:19] ERROR: undefined => uncaughtException: Cannot find module '../../database/models'
+Require stack:
+- D:\nodejs-project\node-ts\src\helpers\HAutoNumbering.ts
+- D:\nodejs-project\node-ts\src\controllers\ProductController\index.ts
+- D:\nodejs-project\node-ts\src\routes\ProductRouter\index.ts
+- D:\nodejs-project\node-ts\src\index.ts
+Error: Cannot find module '../../database/models'
+Require stack:
+- D:\nodejs-project\node-ts\src\helpers\HAutoNumbering.ts
+- D:\nodejs-project\node-ts\src\controllers\ProductController\index.ts
+- D:\nodejs-project\node-ts\src\routes\ProductRouter\index.ts
+- D:\nodejs-project\node-ts\src\index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (D:\nodejs-project\node-ts\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._load (node:internal/modules/cjs/loader:1051:27)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (D:\nodejs-project\node-ts\src\helpers\HAutoNumbering.ts:3:1)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module.m._compile (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1621:12) (+0ms)
+[2024-09-24 01:08:49] ERROR: undefined => uncaughtException: Cannot find module '../../database/models'
+Require stack:
+- D:\nodejs-project\node-ts\src\helpers\HAutoNumbering.ts
+- D:\nodejs-project\node-ts\src\controllers\ProductController\index.ts
+- D:\nodejs-project\node-ts\src\routes\ProductRouter\index.ts
+- D:\nodejs-project\node-ts\src\index.ts
+Error: Cannot find module '../../database/models'
+Require stack:
+- D:\nodejs-project\node-ts\src\helpers\HAutoNumbering.ts
+- D:\nodejs-project\node-ts\src\controllers\ProductController\index.ts
+- D:\nodejs-project\node-ts\src\routes\ProductRouter\index.ts
+- D:\nodejs-project\node-ts\src\index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (D:\nodejs-project\node-ts\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._load (node:internal/modules/cjs/loader:1051:27)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (D:\nodejs-project\node-ts\src\helpers\HAutoNumbering.ts:3:1)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module.m._compile (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1621:12) (+0ms)
+[2024-09-24 01:09:03] ERROR: undefined => uncaughtException: Cannot find module '../../database/models'
+Require stack:
+- D:\nodejs-project\node-ts\src\helpers\HAutoNumbering.ts
+- D:\nodejs-project\node-ts\src\controllers\ProductController\index.ts
+- D:\nodejs-project\node-ts\src\routes\ProductRouter\index.ts
+- D:\nodejs-project\node-ts\src\index.ts
+Error: Cannot find module '../../database/models'
+Require stack:
+- D:\nodejs-project\node-ts\src\helpers\HAutoNumbering.ts
+- D:\nodejs-project\node-ts\src\controllers\ProductController\index.ts
+- D:\nodejs-project\node-ts\src\routes\ProductRouter\index.ts
+- D:\nodejs-project\node-ts\src\index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (D:\nodejs-project\node-ts\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._load (node:internal/modules/cjs/loader:1051:27)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (D:\nodejs-project\node-ts\src\helpers\HAutoNumbering.ts:3:1)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module.m._compile (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1621:12) (+0ms)
+[2024-09-24 01:09:37] ERROR: undefined => uncaughtException: ⨯ Unable to compile TypeScript:
+src/controllers/ProductController/index.ts(1,10): error TS2300: Duplicate identifier 'autoNumbering'.
+src/controllers/ProductController/index.ts(8,10): error TS2300: Duplicate identifier 'autoNumbering'.
+
+TSError: ⨯ Unable to compile TypeScript:
+src/controllers/ProductController/index.ts(1,10): error TS2300: Duplicate identifier 'autoNumbering'.
+src/controllers/ProductController/index.ts(8,10): error TS2300: Duplicate identifier 'autoNumbering'.
+
+    at createTSError (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19) (+0ms)
+[2024-09-24 01:10:11] ERROR: undefined => uncaughtException: ⨯ Unable to compile TypeScript:
+src/controllers/ProductController/index.ts(1,10): error TS2300: Duplicate identifier 'autoNumbering'.
+src/controllers/ProductController/index.ts(8,10): error TS2300: Duplicate identifier 'autoNumbering'.
+
+TSError: ⨯ Unable to compile TypeScript:
+src/controllers/ProductController/index.ts(1,10): error TS2300: Duplicate identifier 'autoNumbering'.
+src/controllers/ProductController/index.ts(8,10): error TS2300: Duplicate identifier 'autoNumbering'.
+
+    at createTSError (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19) (+0ms)
+[2024-09-24 01:12:01] ERROR: undefined => uncaughtException: Cannot find module '../../database/models'
+Require stack:
+- D:\nodejs-project\node-ts\src\helpers\HAutoNumbering.ts
+- D:\nodejs-project\node-ts\src\controllers\ProductController\index.ts
+- D:\nodejs-project\node-ts\src\routes\ProductRouter\index.ts
+- D:\nodejs-project\node-ts\src\index.ts
+Error: Cannot find module '../../database/models'
+Require stack:
+- D:\nodejs-project\node-ts\src\helpers\HAutoNumbering.ts
+- D:\nodejs-project\node-ts\src\controllers\ProductController\index.ts
+- D:\nodejs-project\node-ts\src\routes\ProductRouter\index.ts
+- D:\nodejs-project\node-ts\src\index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (D:\nodejs-project\node-ts\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._load (node:internal/modules/cjs/loader:1051:27)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (D:\nodejs-project\node-ts\src\helpers\HAutoNumbering.ts:3:1)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module.m._compile (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1621:12) (+0ms)
+[2024-09-24 01:12:21] ERROR: undefined => uncaughtException: Cannot find module '../../database/models'
+Require stack:
+- D:\nodejs-project\node-ts\src\helpers\HAutoNumbering.ts
+- D:\nodejs-project\node-ts\src\controllers\ProductController\index.ts
+- D:\nodejs-project\node-ts\src\routes\ProductRouter\index.ts
+- D:\nodejs-project\node-ts\src\index.ts
+Error: Cannot find module '../../database/models'
+Require stack:
+- D:\nodejs-project\node-ts\src\helpers\HAutoNumbering.ts
+- D:\nodejs-project\node-ts\src\controllers\ProductController\index.ts
+- D:\nodejs-project\node-ts\src\routes\ProductRouter\index.ts
+- D:\nodejs-project\node-ts\src\index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (D:\nodejs-project\node-ts\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._load (node:internal/modules/cjs/loader:1051:27)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (D:\nodejs-project\node-ts\src\helpers\HAutoNumbering.ts:3:1)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module.m._compile (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1621:12) (+0ms)
+[2024-09-24 01:12:35] ERROR: undefined => uncaughtException: Cannot find module '../../database/models'
+Require stack:
+- D:\nodejs-project\node-ts\src\helpers\HAutoNumbering.ts
+- D:\nodejs-project\node-ts\src\controllers\ProductController\index.ts
+- D:\nodejs-project\node-ts\src\routes\ProductRouter\index.ts
+- D:\nodejs-project\node-ts\src\index.ts
+Error: Cannot find module '../../database/models'
+Require stack:
+- D:\nodejs-project\node-ts\src\helpers\HAutoNumbering.ts
+- D:\nodejs-project\node-ts\src\controllers\ProductController\index.ts
+- D:\nodejs-project\node-ts\src\routes\ProductRouter\index.ts
+- D:\nodejs-project\node-ts\src\index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (D:\nodejs-project\node-ts\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._load (node:internal/modules/cjs/loader:1051:27)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (D:\nodejs-project\node-ts\src\helpers\HAutoNumbering.ts:3:1)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module.m._compile (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1621:12) (+0ms)
+[2024-09-24 01:13:15] ERROR: undefined => uncaughtException: Cannot find module '../../database/models'
+Require stack:
+- D:\nodejs-project\node-ts\src\helpers\HAutoNumbering.ts
+- D:\nodejs-project\node-ts\src\controllers\ProductController\index.ts
+- D:\nodejs-project\node-ts\src\routes\ProductRouter\index.ts
+- D:\nodejs-project\node-ts\src\index.ts
+Error: Cannot find module '../../database/models'
+Require stack:
+- D:\nodejs-project\node-ts\src\helpers\HAutoNumbering.ts
+- D:\nodejs-project\node-ts\src\controllers\ProductController\index.ts
+- D:\nodejs-project\node-ts\src\routes\ProductRouter\index.ts
+- D:\nodejs-project\node-ts\src\index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (D:\nodejs-project\node-ts\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._load (node:internal/modules/cjs/loader:1051:27)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (D:\nodejs-project\node-ts\src\helpers\HAutoNumbering.ts:3:1)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module.m._compile (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1621:12) (+0ms)
+[2024-09-24 01:13:30] ERROR: undefined => uncaughtException: Cannot find module '../../database/models'
+Require stack:
+- D:\nodejs-project\node-ts\src\helpers\HAutoNumbering.ts
+- D:\nodejs-project\node-ts\src\controllers\ProductController\index.ts
+- D:\nodejs-project\node-ts\src\routes\ProductRouter\index.ts
+- D:\nodejs-project\node-ts\src\index.ts
+Error: Cannot find module '../../database/models'
+Require stack:
+- D:\nodejs-project\node-ts\src\helpers\HAutoNumbering.ts
+- D:\nodejs-project\node-ts\src\controllers\ProductController\index.ts
+- D:\nodejs-project\node-ts\src\routes\ProductRouter\index.ts
+- D:\nodejs-project\node-ts\src\index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (D:\nodejs-project\node-ts\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._load (node:internal/modules/cjs/loader:1051:27)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (D:\nodejs-project\node-ts\src\helpers\HAutoNumbering.ts:3:1)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module.m._compile (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1621:12) (+0ms)
+[2024-09-24 01:15:28] ERROR: undefined => uncaughtException: Cannot find module '../../database/models'
+Require stack:
+- D:\nodejs-project\node-ts\src\helpers\HAutoNumbering.ts
+- D:\nodejs-project\node-ts\src\controllers\ProductController\index.ts
+- D:\nodejs-project\node-ts\src\routes\ProductRouter\index.ts
+- D:\nodejs-project\node-ts\src\index.ts
+Error: Cannot find module '../../database/models'
+Require stack:
+- D:\nodejs-project\node-ts\src\helpers\HAutoNumbering.ts
+- D:\nodejs-project\node-ts\src\controllers\ProductController\index.ts
+- D:\nodejs-project\node-ts\src\routes\ProductRouter\index.ts
+- D:\nodejs-project\node-ts\src\index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (D:\nodejs-project\node-ts\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._load (node:internal/modules/cjs/loader:1051:27)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (D:\nodejs-project\node-ts\src\helpers\HAutoNumbering.ts:3:1)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module.m._compile (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1621:12) (+0ms)
+[2024-09-24 03:36:30] ERROR: undefined => uncaughtException: ⨯ Unable to compile TypeScript:
+src/helpers/HAutoNumbering.ts(9,26): error TS2307: Cannot find module './HJakartaTime' or its corresponding type declarations.
+
+TSError: ⨯ Unable to compile TypeScript:
+src/helpers/HAutoNumbering.ts(9,26): error TS2307: Cannot find module './HJakartaTime' or its corresponding type declarations.
+
+    at createTSError (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19) (+0ms)
+[2024-09-24 03:36:57] ERROR: undefined => uncaughtException: ⨯ Unable to compile TypeScript:
+src/helpers/HAutoNumbering.ts(9,26): error TS2307: Cannot find module './HJakartaTime' or its corresponding type declarations.
+
+TSError: ⨯ Unable to compile TypeScript:
+src/helpers/HAutoNumbering.ts(9,26): error TS2307: Cannot find module './HJakartaTime' or its corresponding type declarations.
+
+    at createTSError (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19) (+0ms)
+[2024-09-24 04:26:46] ERROR: undefined => uncaughtException: ⨯ Unable to compile TypeScript:
+src/controllers/ProductController/index.ts(297,20): error TS2339: Property 'status' does not exist on type 'never'.
+
+TSError: ⨯ Unable to compile TypeScript:
+src/controllers/ProductController/index.ts(297,20): error TS2339: Property 'status' does not exist on type 'never'.
+
+    at createTSError (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19) (+0ms)
+[2024-09-24 23:03:09] ERROR: undefined => uncaughtException: ⨯ Unable to compile TypeScript:
+src/controllers/ProductController/index.ts(299,61): error TS2339: Property 'prefix' does not exist on type 'ProductController'.
+src/controllers/ProductController/index.ts(299,87): error TS2339: Property 'day' does not exist on type 'ProductController'.
+src/controllers/ProductController/index.ts(299,111): error TS2339: Property 'month' does not exist on type 'ProductController'.
+src/controllers/ProductController/index.ts(299,136): error TS2339: Property 'yearFull' does not exist on type 'ProductController'.
+src/controllers/ProductController/index.ts(299,168): error TS2339: Property 'year' does not exist on type 'ProductController'.
+
+TSError: ⨯ Unable to compile TypeScript:
+src/controllers/ProductController/index.ts(299,61): error TS2339: Property 'prefix' does not exist on type 'ProductController'.
+src/controllers/ProductController/index.ts(299,87): error TS2339: Property 'day' does not exist on type 'ProductController'.
+src/controllers/ProductController/index.ts(299,111): error TS2339: Property 'month' does not exist on type 'ProductController'.
+src/controllers/ProductController/index.ts(299,136): error TS2339: Property 'yearFull' does not exist on type 'ProductController'.
+src/controllers/ProductController/index.ts(299,168): error TS2339: Property 'year' does not exist on type 'ProductController'.
+
+    at createTSError (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19) (+0ms)

@@ -1,0 +1,172 @@
+[2024-09-23 00:19:07] ERROR: req => sialan (+0ms)
+[2024-09-23 00:19:42] ERROR: req => sialan (+1ms)
+[2024-09-23 17:06:20] ERROR: undefined => uncaughtException: sialan
+Error: sialan
+    at Server.<anonymous> (D:\nodejs-project\node-ts\src\index.ts:22:9)
+    at Object.onceWrapper (node:events:633:28)
+    at Server.emit (node:events:531:35)
+    at Server.emit (node:domain:488:12)
+    at emitListeningNT (node:net:1947:10)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) (+0ms)
+[2024-09-23 17:09:50] ERROR: Req login => TypeError: models_1.sequelize.uery is not a function (+0ms)
+[2024-09-23 17:11:49] ERROR: Req login => TypeError: models_1.sequelize.uery is not a function (+0ms)
+[2024-09-23 17:50:23] ERROR: undefined => uncaughtException: ⨯ Unable to compile TypeScript:
+src/middleware/VerifyToken.ts(18,21): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type 'string | undefined' is not assignable to parameter of type 'Secret | JsonWebKeyInput | PublicKeyInput | GetPublicKeyOrSecret'.
+      Type 'undefined' is not assignable to type 'Secret | JsonWebKeyInput | PublicKeyInput | GetPublicKeyOrSecret'.
+
+TSError: ⨯ Unable to compile TypeScript:
+src/middleware/VerifyToken.ts(18,21): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type 'string | undefined' is not assignable to parameter of type 'Secret | JsonWebKeyInput | PublicKeyInput | GetPublicKeyOrSecret'.
+      Type 'undefined' is not assignable to type 'Secret | JsonWebKeyInput | PublicKeyInput | GetPublicKeyOrSecret'.
+
+    at createTSError (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19) (+0ms)
+[2024-09-23 17:50:55] ERROR: undefined => uncaughtException: ⨯ Unable to compile TypeScript:
+src/middleware/VerifyToken.ts(18,21): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type 'string | undefined' is not assignable to parameter of type 'Secret | JsonWebKeyInput | PublicKeyInput | GetPublicKeyOrSecret'.
+      Type 'undefined' is not assignable to type 'Secret | JsonWebKeyInput | PublicKeyInput | GetPublicKeyOrSecret'.
+
+TSError: ⨯ Unable to compile TypeScript:
+src/middleware/VerifyToken.ts(18,21): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type 'string | undefined' is not assignable to parameter of type 'Secret | JsonWebKeyInput | PublicKeyInput | GetPublicKeyOrSecret'.
+      Type 'undefined' is not assignable to type 'Secret | JsonWebKeyInput | PublicKeyInput | GetPublicKeyOrSecret'.
+
+    at createTSError (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19) (+0ms)
+[2024-09-23 17:53:02] ERROR: undefined => uncaughtException: ⨯ Unable to compile TypeScript:
+src/middleware/VerifyToken.ts(18,21): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type 'string | undefined' is not assignable to parameter of type 'Secret | JsonWebKeyInput | PublicKeyInput | GetPublicKeyOrSecret'.
+      Type 'undefined' is not assignable to type 'Secret | JsonWebKeyInput | PublicKeyInput | GetPublicKeyOrSecret'.
+
+TSError: ⨯ Unable to compile TypeScript:
+src/middleware/VerifyToken.ts(18,21): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type 'string | undefined' is not assignable to parameter of type 'Secret | JsonWebKeyInput | PublicKeyInput | GetPublicKeyOrSecret'.
+      Type 'undefined' is not assignable to type 'Secret | JsonWebKeyInput | PublicKeyInput | GetPublicKeyOrSecret'.
+
+    at createTSError (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19) (+0ms)
+[2024-09-23 17:53:16] ERROR: undefined => uncaughtException: ⨯ Unable to compile TypeScript:
+src/middleware/VerifyToken.ts(18,21): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type 'string | undefined' is not assignable to parameter of type 'Secret | JsonWebKeyInput | PublicKeyInput | GetPublicKeyOrSecret'.
+      Type 'undefined' is not assignable to type 'Secret | JsonWebKeyInput | PublicKeyInput | GetPublicKeyOrSecret'.
+
+TSError: ⨯ Unable to compile TypeScript:
+src/middleware/VerifyToken.ts(18,21): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type 'string | undefined' is not assignable to parameter of type 'Secret | JsonWebKeyInput | PublicKeyInput | GetPublicKeyOrSecret'.
+      Type 'undefined' is not assignable to type 'Secret | JsonWebKeyInput | PublicKeyInput | GetPublicKeyOrSecret'.
+
+    at createTSError (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19) (+0ms)
+[2024-09-23 17:56:04] ERROR: undefined => uncaughtException: ⨯ Unable to compile TypeScript:
+src/middleware/index.ts(22,21): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type 'string | undefined' is not assignable to parameter of type 'Secret | JsonWebKeyInput | PublicKeyInput | GetPublicKeyOrSecret'.
+      Type 'undefined' is not assignable to type 'Secret | JsonWebKeyInput | PublicKeyInput | GetPublicKeyOrSecret'.
+
+TSError: ⨯ Unable to compile TypeScript:
+src/middleware/index.ts(22,21): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type 'string | undefined' is not assignable to parameter of type 'Secret | JsonWebKeyInput | PublicKeyInput | GetPublicKeyOrSecret'.
+      Type 'undefined' is not assignable to type 'Secret | JsonWebKeyInput | PublicKeyInput | GetPublicKeyOrSecret'.
+
+    at createTSError (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19) (+0ms)
+[2024-09-23 17:56:46] ERROR: undefined => uncaughtException: ⨯ Unable to compile TypeScript:
+src/middleware/index.ts(22,21): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type 'string | undefined' is not assignable to parameter of type 'Secret | JsonWebKeyInput | PublicKeyInput | GetPublicKeyOrSecret'.
+      Type 'undefined' is not assignable to type 'Secret | JsonWebKeyInput | PublicKeyInput | GetPublicKeyOrSecret'.
+
+TSError: ⨯ Unable to compile TypeScript:
+src/middleware/index.ts(22,21): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type 'string | undefined' is not assignable to parameter of type 'Secret | JsonWebKeyInput | PublicKeyInput | GetPublicKeyOrSecret'.
+      Type 'undefined' is not assignable to type 'Secret | JsonWebKeyInput | PublicKeyInput | GetPublicKeyOrSecret'.
+
+    at createTSError (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19) (+0ms)
+[2024-09-23 18:39:42] ERROR: undefined => uncaughtException: EISDIR: illegal operation on a directory, read
+Error: EISDIR: illegal operation on a directory, read
+    at Object.readFileSync (node:fs:448:20)
+    at extractAnnotations (D:\nodejs-project\node-ts\node_modules\swagger-jsdoc\src\utils.js:54:26)
+    at build (D:\nodejs-project\node-ts\node_modules\swagger-jsdoc\src\specification.js:200:9)
+    at module.exports (D:\nodejs-project\node-ts\node_modules\swagger-jsdoc\src\lib.js:32:10)
+    at Object.<anonymous> (D:\nodejs-project\node-ts\src\index.ts:30:37)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module.m._compile (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1288:32) (+0ms)
+[2024-09-23 18:39:53] ERROR: undefined => uncaughtException: EISDIR: illegal operation on a directory, read
+Error: EISDIR: illegal operation on a directory, read
+    at Object.readFileSync (node:fs:448:20)
+    at extractAnnotations (D:\nodejs-project\node-ts\node_modules\swagger-jsdoc\src\utils.js:54:26)
+    at build (D:\nodejs-project\node-ts\node_modules\swagger-jsdoc\src\specification.js:200:9)
+    at module.exports (D:\nodejs-project\node-ts\node_modules\swagger-jsdoc\src\lib.js:32:10)
+    at Object.<anonymous> (D:\nodejs-project\node-ts\src\index.ts:30:37)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module.m._compile (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1288:32) (+0ms)
+[2024-09-23 18:50:13] ERROR: Req login => TypeError: models_1.sequelize.uery is not a function (+0ms)
+[2024-09-23 18:50:50] ERROR: Req login => {} (+0ms)
+[2024-09-23 18:51:34] ERROR: Req login => TypeError: models_1.sequelize.uery is not a function (+0ms)
+[2024-09-23 18:52:31] ERROR: Req login => SequelizeDatabaseError: Unknown column 'name' in 'field list' (+0ms)
