@@ -3,6 +3,7 @@ const { printf, combine, ms } = format;
 import DailyRotateFile from "winston-daily-rotate-file";
 import HDate from "../helpers/HDate";
 
+// LOGGER REQUESTS
 const tError: DailyRotateFile = new DailyRotateFile({
   level: "error",
   filename: `./src/storage/logs/node-%DATE%.log`,
@@ -31,4 +32,24 @@ const logger = createLogger({
   transports: [new transports.Console(), tError, tInfo],
 });
 
-export default logger;
+// LOGGER QUERY
+const tInfoQuery: DailyRotateFile = new DailyRotateFile({
+  level: "info",
+  filename: `./src/storage/logs/queries/${HDate.frFolderDate()}/queries-%DATE%.log`,
+  zippedArchive: true,
+  maxFiles: "14d",
+  format: format((info) => {
+    return info.level === "info" ? info : false;
+  })(),
+});
+
+const logFormatQuery = printf(({ level, label, message, ms }) => {
+  return `[${HDate.frFullDate()}] ${message} (${ms})`;
+});
+
+const loggerQuery = createLogger({
+  format: combine(ms(), logFormatQuery),
+  transports: [new transports.Console(), tInfoQuery],
+});
+
+export { logger, loggerQuery };

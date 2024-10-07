@@ -2,9 +2,12 @@ import { Request, Response } from "express";
 import { QueryTypes } from "sequelize";
 import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
-import logger from "../../config/logging";
+import { logger } from "../../config/logging";
 // @ts-ignore
 import { sequelize } from "../../database/models";
+// @ts-ignore
+import { sequelize2 } from "../../database/models";
+const Models = require("../../database/models/index.js");
 
 class AuthController {
   /**
@@ -241,9 +244,25 @@ class AuthController {
         { type: QueryTypes.SELECT }
       );
 
+      await sequelize2.models.users.update(
+        {
+          username: "seq2 updated",
+        },
+        {
+          where: {
+            id: 5,
+          },
+        }
+      );
+
+      const user2 = await sequelize2.query(`SELECT * FROM users limit 5`, {
+        type: QueryTypes.SELECT,
+      });
+
       return res.status(200).json({
         status: 200,
         message: "User details",
+        user2: user2,
         data: user[0],
       });
     } catch (error: any) {

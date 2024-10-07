@@ -1,0 +1,1 @@
+[2024-10-06 01:39:02] ERROR: Req login => TypeError: models_2.sequelize2.models.users.delete is not a function (+2ms)

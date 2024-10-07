@@ -4,7 +4,7 @@ import IController from "../IController";
 // @ts-ignore
 import { sequelize } from "../../database/models";
 import { QueryTypes } from "sequelize";
-import logger from "../../config/logging";
+import { logger } from "../../config/logging";
 const Models = require("../../database/models/index.js");
 
 class ProductController implements IController {

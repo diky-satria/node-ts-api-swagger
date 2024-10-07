@@ -1,6 +1,6 @@
 import { body, validationResult } from "express-validator";
 import { Request, Response, NextFunction } from "express";
-import logger from "../../config/logging";
+import { logger } from "../../config/logging";
 // @ts-ignore
 import { sequelize } from "../../database/models";
 import { QueryTypes } from "sequelize";

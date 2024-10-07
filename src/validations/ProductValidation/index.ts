@@ -1,6 +1,6 @@
 import { body, validationResult } from "express-validator";
 import { Request, Response, NextFunction } from "express";
-import logger from "../../config/logging";
+import { logger } from "../../config/logging";
 
 export const valProductCreate = [
   body("name").notEmpty().withMessage("Name harus di isi"),

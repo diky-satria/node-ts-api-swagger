@@ -1,0 +1,577 @@
+[2024-09-30 01:02:35] ERROR: undefined => uncaughtException: ENOENT: no such file or directory, scandir 'D:\nodejs-project\node-ts\src\database\models\db2'
+Error: ENOENT: no such file or directory, scandir 'D:\nodejs-project\node-ts\src\database\models\db2'
+    at Object.readdirSync (node:fs:1507:26)
+    at Object.<anonymous> (D:\nodejs-project\node-ts\src\database\models\index.js:48:4)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .js] (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1608:43)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (D:\nodejs-project\node-ts\src\controllers\AuthController\index.ts:7:1) (+0ms)
+[2024-09-30 01:15:18] ERROR: undefined => uncaughtException: Cannot find module '../../models/index.js'
+Require stack:
+- D:\nodejs-project\node-ts\src\controllers\AuthController\index.ts
+- D:\nodejs-project\node-ts\src\routes\AuthRouter\index.ts
+- D:\nodejs-project\node-ts\src\index.ts
+Error: Cannot find module '../../models/index.js'
+Require stack:
+- D:\nodejs-project\node-ts\src\controllers\AuthController\index.ts
+- D:\nodejs-project\node-ts\src\routes\AuthRouter\index.ts
+- D:\nodejs-project\node-ts\src\index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (D:\nodejs-project\node-ts\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._load (node:internal/modules/cjs/loader:1051:27)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (D:\nodejs-project\node-ts\src\controllers\AuthController\index.ts:9:1)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module.m._compile (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1621:12) (+0ms)
+[2024-09-30 01:34:36] ERROR: undefined => uncaughtException: ENOENT: no such file or directory, scandir 'D:\nodejs-project\node-ts\src\database\models\node_ts'
+Error: ENOENT: no such file or directory, scandir 'D:\nodejs-project\node-ts\src\database\models\node_ts'
+    at Object.readdirSync (node:fs:1507:26)
+    at Object.<anonymous> (D:\nodejs-project\node-ts\src\database\models\index.js:24:4)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .js] (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1608:43)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (D:\nodejs-project\node-ts\src\controllers\AuthController\index.ts:7:1) (+0ms)
+[2024-09-30 01:35:27] ERROR: undefined => uncaughtException: Cannot find module 'D:\nodejs-project\node-ts\src\database\models\counter_numbers.js'
+Require stack:
+- D:\nodejs-project\node-ts\src\database\models\index.js
+- D:\nodejs-project\node-ts\src\controllers\AuthController\index.ts
+- D:\nodejs-project\node-ts\src\routes\AuthRouter\index.ts
+- D:\nodejs-project\node-ts\src\index.ts
+Error: Cannot find module 'D:\nodejs-project\node-ts\src\database\models\counter_numbers.js'
+Require stack:
+- D:\nodejs-project\node-ts\src\database\models\index.js
+- D:\nodejs-project\node-ts\src\controllers\AuthController\index.ts
+- D:\nodejs-project\node-ts\src\routes\AuthRouter\index.ts
+- D:\nodejs-project\node-ts\src\index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (D:\nodejs-project\node-ts\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._load (node:internal/modules/cjs/loader:1051:27)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at D:\nodejs-project\node-ts\src\database\models\index.js:34:19
+    at Array.forEach (<anonymous>)
+    at Object.<anonymous> (D:\nodejs-project\node-ts\src\database\models\index.js:33:4)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10) (+0ms)
+[2024-09-30 02:02:28] ERROR: undefined => uncaughtException: Cannot convert undefined or null to object
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at Object.<anonymous> (D:\nodejs-project\node-ts\src\database\models\index.js:11:26)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .js] (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1608:43)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (D:\nodejs-project\node-ts\src\controllers\AuthController\index.ts:7:1) (+0ms)
+[2024-09-30 02:03:35] ERROR: undefined => uncaughtException: Cannot convert undefined or null to object
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at Object.<anonymous> (D:\nodejs-project\node-ts\src\database\models\index.js:11:26)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .js] (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1608:43)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (D:\nodejs-project\node-ts\src\controllers\AuthController\index.ts:7:1) (+0ms)
+[2024-09-30 02:04:17] ERROR: undefined => uncaughtException: Cannot convert undefined or null to object
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at Object.<anonymous> (D:\nodejs-project\node-ts\src\database\models\index.js:11:26)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .js] (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1608:43)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (D:\nodejs-project\node-ts\src\controllers\AuthController\index.ts:7:1) (+0ms)
+[2024-09-30 02:46:07] ERROR: undefined => uncaughtException: Dialect needs to be explicitly supplied as of v4.0.0
+Error: Dialect needs to be explicitly supplied as of v4.0.0
+    at new Sequelize (D:\nodejs-project\node-ts\node_modules\sequelize\src\sequelize.js:300:13)
+    at Object.<anonymous> (D:\nodejs-project\node-ts\src\database\models\index2.js:16:15)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .js] (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1608:43)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at D:\nodejs-project\node-ts\src\database\models\index.js:34:19 (+0ms)
+[2024-09-30 02:48:14] ERROR: undefined => uncaughtException: require(...) is not a function
+TypeError: require(...) is not a function
+    at D:\nodejs-project\node-ts\src\database\models\index2.js:34:54
+    at Array.forEach (<anonymous>)
+    at Object.<anonymous> (D:\nodejs-project\node-ts\src\database\models\index2.js:33:4)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .js] (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1608:43)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18) (+0ms)
+[2024-09-30 02:52:17] ERROR: undefined => uncaughtException: require(...) is not a function
+TypeError: require(...) is not a function
+    at D:\nodejs-project\node-ts\src\database\models\index.js:34:54
+    at Array.forEach (<anonymous>)
+    at Object.<anonymous> (D:\nodejs-project\node-ts\src\database\models\index.js:33:4)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .js] (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1608:43)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18) (+0ms)
+[2024-09-30 02:55:51] ERROR: undefined => uncaughtException: require(...) is not a function
+TypeError: require(...) is not a function
+    at D:\nodejs-project\node-ts\src\database\models\index.js:34:54
+    at Array.forEach (<anonymous>)
+    at Object.<anonymous> (D:\nodejs-project\node-ts\src\database\models\index.js:33:4)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .js] (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1608:43)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18) (+0ms)
+[2024-09-30 02:56:29] ERROR: undefined => uncaughtException: require(...) is not a function
+TypeError: require(...) is not a function
+    at D:\nodejs-project\node-ts\src\database\models\index.js:34:54
+    at Array.forEach (<anonymous>)
+    at Object.<anonymous> (D:\nodejs-project\node-ts\src\database\models\index.js:33:4)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .js] (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1608:43)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18) (+0ms)
+[2024-09-30 02:58:58] ERROR: undefined => uncaughtException: require(...) is not a function
+TypeError: require(...) is not a function
+    at D:\nodejs-project\node-ts\src\database\models\index.js:34:54
+    at Array.forEach (<anonymous>)
+    at Object.<anonymous> (D:\nodejs-project\node-ts\src\database\models\index.js:33:4)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .js] (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1608:43)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18) (+0ms)
+[2024-09-30 03:00:58] ERROR: undefined => uncaughtException: require(...) is not a function
+TypeError: require(...) is not a function
+    at D:\nodejs-project\node-ts\src\database\models\index.js:34:54
+    at Array.forEach (<anonymous>)
+    at Object.<anonymous> (D:\nodejs-project\node-ts\src\database\models\index.js:33:4)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .js] (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1608:43)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18) (+0ms)
+[2024-09-30 14:17:25] ERROR: undefined => uncaughtException: Cannot find module '../helpers/logger'
+Require stack:
+- D:\nodejs-project\node-ts\src\config\database.js
+- D:\nodejs-project\node-ts\src\database\models\index.js
+- D:\nodejs-project\node-ts\src\controllers\AuthController\index.ts
+- D:\nodejs-project\node-ts\src\routes\AuthRouter\index.ts
+- D:\nodejs-project\node-ts\src\index.ts
+Error: Cannot find module '../helpers/logger'
+Require stack:
+- D:\nodejs-project\node-ts\src\config\database.js
+- D:\nodejs-project\node-ts\src\database\models\index.js
+- D:\nodejs-project\node-ts\src\controllers\AuthController\index.ts
+- D:\nodejs-project\node-ts\src\routes\AuthRouter\index.ts
+- D:\nodejs-project\node-ts\src\index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (D:\nodejs-project\node-ts\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._load (node:internal/modules/cjs/loader:1051:27)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (D:\nodejs-project\node-ts\src\config\database.js:2:25)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .js] (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1608:43)
+    at Module.load (node:internal/modules/cjs/loader:1288:32) (+0ms)
+[2024-09-30 14:17:25] ERROR: undefined => uncaughtException: Cannot find module '../helpers/logger'
+Require stack:
+- D:\nodejs-project\node-ts\src\config\database.js
+- D:\nodejs-project\node-ts\src\database\models\index.js
+- D:\nodejs-project\node-ts\src\controllers\AuthController\index.ts
+- D:\nodejs-project\node-ts\src\routes\AuthRouter\index.ts
+- D:\nodejs-project\node-ts\src\index.ts
+Error: Cannot find module '../helpers/logger'
+Require stack:
+- D:\nodejs-project\node-ts\src\config\database.js
+- D:\nodejs-project\node-ts\src\database\models\index.js
+- D:\nodejs-project\node-ts\src\controllers\AuthController\index.ts
+- D:\nodejs-project\node-ts\src\routes\AuthRouter\index.ts
+- D:\nodejs-project\node-ts\src\index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (D:\nodejs-project\node-ts\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._load (node:internal/modules/cjs/loader:1051:27)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (D:\nodejs-project\node-ts\src\config\database.js:2:25)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .js] (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1608:43)
+    at Module.load (node:internal/modules/cjs/loader:1288:32) (+1ms)
+[2024-09-30 14:17:40] ERROR: undefined => uncaughtException: Cannot find module '../helpers/logger'
+Require stack:
+- D:\nodejs-project\node-ts\src\config\database.js
+- D:\nodejs-project\node-ts\src\database\models\index.js
+- D:\nodejs-project\node-ts\src\controllers\AuthController\index.ts
+- D:\nodejs-project\node-ts\src\routes\AuthRouter\index.ts
+- D:\nodejs-project\node-ts\src\index.ts
+Error: Cannot find module '../helpers/logger'
+Require stack:
+- D:\nodejs-project\node-ts\src\config\database.js
+- D:\nodejs-project\node-ts\src\database\models\index.js
+- D:\nodejs-project\node-ts\src\controllers\AuthController\index.ts
+- D:\nodejs-project\node-ts\src\routes\AuthRouter\index.ts
+- D:\nodejs-project\node-ts\src\index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (D:\nodejs-project\node-ts\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._load (node:internal/modules/cjs/loader:1051:27)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (D:\nodejs-project\node-ts\src\config\database.js:2:25)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .js] (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1608:43)
+    at Module.load (node:internal/modules/cjs/loader:1288:32) (+0ms)
+[2024-09-30 14:17:40]: uncaughtException: Cannot find module '../helpers/logger'
+Require stack:
+- D:\nodejs-project\node-ts\src\config\database.js
+- D:\nodejs-project\node-ts\src\database\models\index.js
+- D:\nodejs-project\node-ts\src\controllers\AuthController\index.ts
+- D:\nodejs-project\node-ts\src\routes\AuthRouter\index.ts
+- D:\nodejs-project\node-ts\src\index.ts
+Error: Cannot find module '../helpers/logger'
+Require stack:
+- D:\nodejs-project\node-ts\src\config\database.js
+- D:\nodejs-project\node-ts\src\database\models\index.js
+- D:\nodejs-project\node-ts\src\controllers\AuthController\index.ts
+- D:\nodejs-project\node-ts\src\routes\AuthRouter\index.ts
+- D:\nodejs-project\node-ts\src\index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (D:\nodejs-project\node-ts\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._load (node:internal/modules/cjs/loader:1051:27)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (D:\nodejs-project\node-ts\src\config\database.js:2:25)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .js] (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1608:43)
+    at Module.load (node:internal/modules/cjs/loader:1288:32) (+2ms)
+[2024-09-30 14:18:45] ERROR: undefined => uncaughtException: ⨯ Unable to compile TypeScript:
+src/validations/AuthValidation/index.ts(3,8): error TS2613: Module '"D:/nodejs-project/node-ts/src/config/logging"' has no default export. Did you mean to use 'import { logger } from "D:/nodejs-project/node-ts/src/config/logging"' instead?
+
+TSError: ⨯ Unable to compile TypeScript:
+src/validations/AuthValidation/index.ts(3,8): error TS2613: Module '"D:/nodejs-project/node-ts/src/config/logging"' has no default export. Did you mean to use 'import { logger } from "D:/nodejs-project/node-ts/src/config/logging"' instead?
+
+    at createTSError (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19) (+0ms)
+[2024-09-30 14:18:45]: uncaughtException: ⨯ Unable to compile TypeScript:
+src/validations/AuthValidation/index.ts(3,8): error TS2613: Module '"D:/nodejs-project/node-ts/src/config/logging"' has no default export. Did you mean to use 'import { logger } from "D:/nodejs-project/node-ts/src/config/logging"' instead?
+
+TSError: ⨯ Unable to compile TypeScript:
+src/validations/AuthValidation/index.ts(3,8): error TS2613: Module '"D:/nodejs-project/node-ts/src/config/logging"' has no default export. Did you mean to use 'import { logger } from "D:/nodejs-project/node-ts/src/config/logging"' instead?
+
+    at createTSError (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19) (+2ms)
+[2024-09-30 14:19:46] ERROR: undefined => uncaughtException: Cannot use import statement outside a module
+D:\nodejs-project\node-ts\src\config\database.js:2
+import { loggerQuery } from "./logging";
+^^^^^^
+
+SyntaxError: Cannot use import statement outside a module
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .js] (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1608:43)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (D:\nodejs-project\node-ts\src\database\models\index.js:9:16)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14) (+0ms)
+[2024-09-30 14:19:46]: uncaughtException: Cannot use import statement outside a module
+D:\nodejs-project\node-ts\src\config\database.js:2
+import { loggerQuery } from "./logging";
+^^^^^^
+
+SyntaxError: Cannot use import statement outside a module
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .js] (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1608:43)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (D:\nodejs-project\node-ts\src\database\models\index.js:9:16)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14) (+2ms)
+[2024-09-30 14:21:14] ERROR: undefined => uncaughtException: ⨯ Unable to compile TypeScript:
+src/validations/AuthValidation/index.ts(3,8): error TS2613: Module '"D:/nodejs-project/node-ts/src/config/logging"' has no default export. Did you mean to use 'import { logger } from "D:/nodejs-project/node-ts/src/config/logging"' instead?
+
+TSError: ⨯ Unable to compile TypeScript:
+src/validations/AuthValidation/index.ts(3,8): error TS2613: Module '"D:/nodejs-project/node-ts/src/config/logging"' has no default export. Did you mean to use 'import { logger } from "D:/nodejs-project/node-ts/src/config/logging"' instead?
+
+    at createTSError (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19) (+0ms)
+[2024-09-30 14:21:14]: uncaughtException: ⨯ Unable to compile TypeScript:
+src/validations/AuthValidation/index.ts(3,8): error TS2613: Module '"D:/nodejs-project/node-ts/src/config/logging"' has no default export. Did you mean to use 'import { logger } from "D:/nodejs-project/node-ts/src/config/logging"' instead?
+
+TSError: ⨯ Unable to compile TypeScript:
+src/validations/AuthValidation/index.ts(3,8): error TS2613: Module '"D:/nodejs-project/node-ts/src/config/logging"' has no default export. Did you mean to use 'import { logger } from "D:/nodejs-project/node-ts/src/config/logging"' instead?
+
+    at createTSError (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19) (+2ms)
+[2024-09-30 14:22:48] ERROR: undefined => uncaughtException: ⨯ Unable to compile TypeScript:
+src/validations/AuthValidation/index.ts(3,8): error TS2613: Module '"D:/nodejs-project/node-ts/src/config/logging"' has no default export. Did you mean to use 'import { logger } from "D:/nodejs-project/node-ts/src/config/logging"' instead?
+
+TSError: ⨯ Unable to compile TypeScript:
+src/validations/AuthValidation/index.ts(3,8): error TS2613: Module '"D:/nodejs-project/node-ts/src/config/logging"' has no default export. Did you mean to use 'import { logger } from "D:/nodejs-project/node-ts/src/config/logging"' instead?
+
+    at createTSError (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19) (+0ms)
+[2024-09-30 14:22:48]: uncaughtException: ⨯ Unable to compile TypeScript:
+src/validations/AuthValidation/index.ts(3,8): error TS2613: Module '"D:/nodejs-project/node-ts/src/config/logging"' has no default export. Did you mean to use 'import { logger } from "D:/nodejs-project/node-ts/src/config/logging"' instead?
+
+TSError: ⨯ Unable to compile TypeScript:
+src/validations/AuthValidation/index.ts(3,8): error TS2613: Module '"D:/nodejs-project/node-ts/src/config/logging"' has no default export. Did you mean to use 'import { logger } from "D:/nodejs-project/node-ts/src/config/logging"' instead?
+
+    at createTSError (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19) (+2ms)
+[2024-09-30 14:23:46] ERROR: undefined => uncaughtException: ⨯ Unable to compile TypeScript:
+src/controllers/ProductController/index.ts(7,8): error TS2613: Module '"D:/nodejs-project/node-ts/src/config/logging"' has no default export. Did you mean to use 'import { logger } from "D:/nodejs-project/node-ts/src/config/logging"' instead?
+
+TSError: ⨯ Unable to compile TypeScript:
+src/controllers/ProductController/index.ts(7,8): error TS2613: Module '"D:/nodejs-project/node-ts/src/config/logging"' has no default export. Did you mean to use 'import { logger } from "D:/nodejs-project/node-ts/src/config/logging"' instead?
+
+    at createTSError (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19) (+0ms)
+[2024-09-30 14:23:46]: uncaughtException: ⨯ Unable to compile TypeScript:
+src/controllers/ProductController/index.ts(7,8): error TS2613: Module '"D:/nodejs-project/node-ts/src/config/logging"' has no default export. Did you mean to use 'import { logger } from "D:/nodejs-project/node-ts/src/config/logging"' instead?
+
+TSError: ⨯ Unable to compile TypeScript:
+src/controllers/ProductController/index.ts(7,8): error TS2613: Module '"D:/nodejs-project/node-ts/src/config/logging"' has no default export. Did you mean to use 'import { logger } from "D:/nodejs-project/node-ts/src/config/logging"' instead?
+
+    at createTSError (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19) (+2ms)
+[2024-09-30 14:24:15] ERROR: undefined => uncaughtException: ⨯ Unable to compile TypeScript:
+src/validations/ProductValidation/index.ts(3,8): error TS2613: Module '"D:/nodejs-project/node-ts/src/config/logging"' has no default export. Did you mean to use 'import { logger } from "D:/nodejs-project/node-ts/src/config/logging"' instead?
+
+TSError: ⨯ Unable to compile TypeScript:
+src/validations/ProductValidation/index.ts(3,8): error TS2613: Module '"D:/nodejs-project/node-ts/src/config/logging"' has no default export. Did you mean to use 'import { logger } from "D:/nodejs-project/node-ts/src/config/logging"' instead?
+
+    at createTSError (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19) (+0ms)
+[2024-09-30 14:24:15]: uncaughtException: ⨯ Unable to compile TypeScript:
+src/validations/ProductValidation/index.ts(3,8): error TS2613: Module '"D:/nodejs-project/node-ts/src/config/logging"' has no default export. Did you mean to use 'import { logger } from "D:/nodejs-project/node-ts/src/config/logging"' instead?
+
+TSError: ⨯ Unable to compile TypeScript:
+src/validations/ProductValidation/index.ts(3,8): error TS2613: Module '"D:/nodejs-project/node-ts/src/config/logging"' has no default export. Did you mean to use 'import { logger } from "D:/nodejs-project/node-ts/src/config/logging"' instead?
+
+    at createTSError (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19) (+2ms)
+[2024-09-30 14:25:27] ERROR: undefined => uncaughtException: Cannot use import statement outside a module
+D:\nodejs-project\node-ts\src\config\database.js:2
+import { loggerQuery } from "logger";
+^^^^^^
+
+SyntaxError: Cannot use import statement outside a module
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .js] (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1608:43)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (D:\nodejs-project\node-ts\src\database\models\index.js:9:16)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14) (+0ms)
+[2024-09-30 14:25:27]: uncaughtException: Cannot use import statement outside a module
+D:\nodejs-project\node-ts\src\config\database.js:2
+import { loggerQuery } from "logger";
+^^^^^^
+
+SyntaxError: Cannot use import statement outside a module
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .js] (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1608:43)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (D:\nodejs-project\node-ts\src\database\models\index.js:9:16)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14) (+1ms)
+[2024-09-30 15:07:11] ERROR: Req login => TypeError: Cannot read properties of undefined (reading 'create') (+2ms)
+[2024-09-30 15:08:06] ERROR: Req login => SequelizeDatabaseError: Table 'node_mention.jurs' doesn't exist (+29ms)
+[2024-09-30 15:16:51] ERROR: undefined => uncaughtException: No Sequelize instance passed
+Error: No Sequelize instance passed
+    at Function.init (D:\nodejs-project\node-ts\node_modules\sequelize\src\model.js:960:13)
+    at module.exports (D:\nodejs-project\node-ts\src\database\models\mention\jurusans.js:14:12)
+    at D:\nodejs-project\node-ts\src\database\models\index.js:60:67
+    at Array.forEach (<anonymous>)
+    at Object.<anonymous> (D:\nodejs-project\node-ts\src\database\models\index.js:59:4)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .js] (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1608:43)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12) (+0ms)
+[2024-09-30 15:17:53] ERROR: Req login => TypeError: Cannot read properties of undefined (reading 'create') (+2ms)
+[2024-09-30 15:22:39] ERROR: undefined => uncaughtException: No Sequelize instance passed
+Error: No Sequelize instance passed
+    at Function.init (D:\nodejs-project\node-ts\node_modules\sequelize\src\model.js:960:13)
+    at module.exports (D:\nodejs-project\node-ts\src\database\models\mention\jurusans.js:14:12)
+    at D:\nodejs-project\node-ts\src\database\models\index.js:60:67
+    at Array.forEach (<anonymous>)
+    at Object.<anonymous> (D:\nodejs-project\node-ts\src\database\models\index.js:59:4)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .js] (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1608:43)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12) (+0ms)
+[2024-09-30 15:23:49] ERROR: undefined => uncaughtException: No Sequelize instance passed
+Error: No Sequelize instance passed
+    at Function.init (D:\nodejs-project\node-ts\node_modules\sequelize\src\model.js:960:13)
+    at module.exports (D:\nodejs-project\node-ts\src\database\models\mention\jurusans.js:14:12)
+    at D:\nodejs-project\node-ts\src\database\models\index.js:60:67
+    at Array.forEach (<anonymous>)
+    at Object.<anonymous> (D:\nodejs-project\node-ts\src\database\models\index.js:59:4)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .js] (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1608:43)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12) (+0ms)
+[2024-09-30 15:34:16] ERROR: undefined => uncaughtException: Cannot use import statement outside a module
+D:\nodejs-project\node-ts\src\database\models\mention\jurusans.js:3
+import { sequelize2 } from "../../database/models";
+^^^^^^
+
+SyntaxError: Cannot use import statement outside a module
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .js] (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1608:43)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at D:\nodejs-project\node-ts\src\database\models\index.js:60:19
+    at Array.forEach (<anonymous>) (+0ms)
+[2024-09-30 15:35:31] ERROR: undefined => uncaughtException: Cannot use import statement outside a module
+D:\nodejs-project\node-ts\src\database\models\mention\jurusans.js:3
+import { sequelize2 } from "../../database/models";
+^^^^^^
+
+SyntaxError: Cannot use import statement outside a module
+    at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+    at Module._compile (node:internal/modules/cjs/loader:1428:41)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .js] (D:\nodejs-project\node-ts\node_modules\ts-node\src\index.ts:1608:43)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+    at D:\nodejs-project\node-ts\src\database\models\index.js:60:19
+    at Array.forEach (<anonymous>) (+0ms)
